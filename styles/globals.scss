@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.MuiOutlinedInput-root.Mui-error
+{
+
+  border-bottom:2px solid rgb(255, 0, 149);
+  
+
+  fieldset{
+    border:none;
+  }
+
+ 
+}
+.MuiFormHelperText-root.Mui-error
+{
+  font-weight:bold;
+  
+}
+
+// .MuiAlert-root{
+//   background-color: whitesmoke;
+//   border-left: 2px solid green;
+//   color:blue;
+// }
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+/* @layer base {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500;
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    @apply border-gray-300 rounded text-indigo-600 focus:ring-indigo-500;
+  }
+} */

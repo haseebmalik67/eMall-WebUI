@@ -1,0 +1,83 @@
+.sideBarMain{
+    min-height:100vh;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(56,56,56);
+}
+.sideBarLogo{
+    height:3.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.sideBarInner{
+    height:100%;
+    color:rgba(240,253,250,0.7);
+}
+.sideBarHome{
+    display:flex;
+    align-items:flex-start;
+    margin:0.5rem;
+    background-color:rgba(71,85,105);
+    border-radius:0.25rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    font-size:1.25rem;
+    line-height:1.75rem;
+    color:rgba(248,113,113);
+
+    a{
+        color:rgba(248,113,113);
+        text-decoration:none;
+    }
+
+    span{
+        padding-left:0.5rem;
+        padding-right:0.5rem;
+        padding-top:0.25rem;
+
+        svg{
+            height:1.25rem;
+            width:1.25rem;
+        }
+    }
+}
+.menuItem
+{
+    margin-bottom: 1.5rem;
+   
+    h3{
+        margin-left: 0.5rem;
+        color:rgba(248,113,113,1);
+    }
+}
+    .subItem{
+        margin:0.75rem;
+        height:2.5rem;
+        display:flex;
+        align-items:center;
+        width:100;
+       
+        span{
+            padding-right: 0.25rem;
+        }
+
+        svg{
+            height: 1.25rem;
+            width:1.25rem;
+        }
+
+        .a{
+            text-decoration: none;
+            font-size: 1rem;
+            color:rgba(240,253,250,0.7);
+        }
+    }
+    .subItem:hover{
+        background-color: rgba(71,85,105,1);
+        border-radius:0.25rem;
+        cursor:pointer;
+    }
+
